@@ -1,6 +1,8 @@
+#Rolls 2 6 side die for each player, compares the results and records the number of times each wins or there is a draw.
+
 from random import randrange
 
-limit = 100
+limit = 1000
 rolled = 0
 firstWins = 0
 secondWins = 0
