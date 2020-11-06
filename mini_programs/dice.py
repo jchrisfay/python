@@ -11,8 +11,6 @@ fourthWins = 0
 fifthWins = 0
 draw = 0
 
-
-
 while rolled < limit:
 
     first = (randrange(6)+randrange(6))
