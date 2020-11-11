@@ -1,4 +1,4 @@
-#Rolls 2 6 side die for each player, compares the results and records the number of times each wins or there is a draw.
+# Rolls 2 6 side die for each player, compares the results and records the number of times each wins or there is a draw.
 
 from random import randrange
 
@@ -13,12 +13,12 @@ draw = 0
 
 while rolled < limit:
 
-    first = (randrange(6)+randrange(6))
-    second = (randrange(6)+randrange(6))
-    third = (randrange(6)+randrange(6))
-    fourth = (randrange(6)+randrange(6))
-    fifth = (randrange(6)+randrange(6))
-    rolls = {"1st":first,"2nd":second,"3rd":third,"4th":fourth,"5th":fifth}
+    first = (randrange(6) + randrange(6))
+    second = (randrange(6) + randrange(6))
+    third = (randrange(6) + randrange(6))
+    fourth = (randrange(6) + randrange(6))
+    fifth = (randrange(6) + randrange(6))
+    rolls = {"1st": first, "2nd": second, "3rd": third, "4th": fourth, "5th": fifth}
     rolled = rolled + 1
 
     if min(rolls, key=rolls.get) == "1st":
