@@ -5,7 +5,7 @@ import praw
 #for using reddit API
 r = praw.Reddit(user_agent='Comment Extraction (by /u/USERNAME)',
                      client_id='hEoLceE15pxrmg', client_secret="NLTjoniv-38kKzpDtL6Q-mS9pkk",
-                     username='danceswithvoles', password='Gyv4&83rg$0k')
+                     username='', password='')
 #gets the redditor whos comments you want
 user = r.redditor('Laundry_Hamper')
 
